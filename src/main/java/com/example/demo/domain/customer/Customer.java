@@ -1,5 +1,5 @@
 package com.example.demo.domain.customer;
 
-public class ProdutoCustomer {
+public class Customer {
 
 }
