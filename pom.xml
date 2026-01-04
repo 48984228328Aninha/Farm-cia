@@ -85,6 +85,11 @@
 			<groupId>org.springframework.modulith</groupId>
 			<artifactId>spring-modulith-starter-jpa</artifactId>
 		</dependency>
+		<dependency>
+    		<groupId>com.nimbusds</groupId>
+    		<artifactId>nimbus-jose-jwt</artifactId>
+			<version>9.31</version>
+		</dependency>
 
 		<dependency>
 			<groupId>org.postgresql</groupId>
@@ -146,6 +151,7 @@
 			<artifactId>spring-modulith-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
+		
 
 		<dependency>
     		<groupId>org.postgresql</groupId>
