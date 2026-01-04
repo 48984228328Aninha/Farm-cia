@@ -12,12 +12,22 @@ target/
 .settings
 .springBeans
 .sts4-cache
+.docker
 
 ### IntelliJ IDEA ###
 .idea
 *.iws
 *.iml
 *.ipr
+
+# Docker
+docker-compose.yml
+Dockerfile
+.docker/
+*.env
+
+# Spring Boot / Java
+application.properties
 
 ### NetBeans ###
 /nbproject/private/
